@@ -18,7 +18,7 @@ main{
     width: 42%;
     height: 33%;
     position: absolute;
-    top: 300px;
+    top: 30%;
     text-align: center;
     margin-right: 180px;
 }
@@ -89,7 +89,7 @@ button{
     .screen{
         margin: 0;
         width: 100%;
-        top: 200px
+        top: 25%
     }
 
 
