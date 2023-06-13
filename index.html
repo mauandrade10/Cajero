@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cajero</title>
+    <link rel="stylesheet" href="./Styles/main.css">
+    <link rel="shortcut icon" href="./Images/icon.png">
+</head>
+<body>
+    <main>  
+        <section class="screen">
+            <div class="header">
+                <img id="logo" src="./Images/logo.png" alt="">
+            </div>
+            <form id="form" action="./menu.html">
+                <p>Selecciona tu user: </p>
+                <select id="user">
+                    <option value="Mali">Mali</option>
+                    <option value="Gera">Gera</option>
+                    <option value="Maui">Maui</option>
+                    <option value="Sebas">Sebas</option>
+                    <option value="Vale">Vale</option>
+                </select>
+                <p>Ingresa tu contraseña: </p>
+                <input id="password" type="password">
+                <button id = "submit"> Enviar </button>
+            </form>
+
+            <p id="pResult"></p>
+        </section>  
+    </main>
+
+    <script src="./Script/main.js"></script>
+</body>
+</html>
